@@ -7,4 +7,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'pupocalypse';
+  year: number = new Date().getFullYear();
 }
